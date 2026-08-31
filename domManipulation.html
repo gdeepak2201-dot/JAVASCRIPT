@@ -1,0 +1,11 @@
+<input id="one">NUM1</input>
+<input id="two">NUM2</input>
+<button onclick="change()">Click </button>
+<p id="result"></p>
+<script>
+    function change(){
+         var num1 = document.getElementById("one").value;
+        var num2 = document.getElementById("two").value;    
+        document.getElementById("result").textContent = num1 + num2;
+    } 
+</script>
